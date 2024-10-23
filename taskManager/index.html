@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Poiret+One&display=swap" rel="stylesheet">
+    <title>Momentum</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Momentum</h1>
+    </header>
+
+    <main id="app">
+      <section class="menu-container">
+        <button class="menu-button button-my-profile">My profile</button>
+        <button class="menu-button button-create-task">Create task</button>
+        <button class="menu-button button-completed-task">Completed tasks</button>
+        <button class="menu-button button-deleted-task">Deleted tasks</button>
+        <button class="menu-button button-notification-settings">Notification settings</button>
+      </section>     
+
+      <section class="task-manager-container">
+        <section class="task-manager-nav">
+          <h2 class="task-manager-nav-heading">Sort list by:</h2>
+          <button class="task-manager-button button-sort-completed">Completed tasks</button>
+          <button class="task-manager-button button-sort-deadline">Deadline</button>
+          <button class="task-manager-button button-sort-highest-reward">Highest reward</button>
+        </section>
+      </section>
+
+      
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
