@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,18 +25,21 @@
       </section>   -->   
 
       <section class="task-manager-nav">
-        <h2 class="task-manager-nav-heading">Sort list by:</h2>
+        <h2 class="task-manager-nav-heading">Sort tasks by:</h2>
         <button class="task-manager-button button-sort-date-added">Date added</button>
         <button class="task-manager-button button-sort-deadline">Deadline</button>
         <button class="task-manager-button button-sort-highest-reward">Highest reward</button>
       </section>
 
       <section class="task-manager-container">
+        <section class="task-list">
+
+        </section>
       </section>
 
-      <button class="new-task-button">New task</button>
+      <button class="new-task-button" id="new-task-button">New task</button>
+      <button class="save-task-button" id="save-task-button">Save task</button>
 
-      
     </main>
     <script type="module" src="/src/main.ts"></script>
   </body>
